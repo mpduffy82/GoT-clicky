@@ -45,7 +45,7 @@ class App extends Component {
     if (newScore >= this.state.topScore) {
       this.setState({ topScore: newScore });
     }
-    else if (newScore === 12) {
+    else if (newScore === 11) {
       this.setState({ rightWrong: "You are worthy of the Iron Throne!" });
     }
     this.handleShuffle();
